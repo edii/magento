@@ -1,0 +1,20 @@
+.block-embed-googlemap {
+    margin: 0;
+    position: relative;
+    background:#e5e3df;
+}
+.block-embed-googlemap .block-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .block-embed-googlemap { height: 330px !important; }
+    #map_canvas_embed { height: 330px !important; }
+}
+@media only screen and (max-width: 767px) {
+    .block-embed-googlemap { height: 330px !important; }
+    #map_canvas_embed { height: 330px !important; }
+}
