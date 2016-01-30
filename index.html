@@ -101,7 +101,6 @@
     <script type="text/javascript" src="js/varien/form.js"></script>
     <script type="text/javascript" src="js/mage/translate.js"></script>
     <script type="text/javascript" src="js/mage/cookies.js"></script>
-
     <script type="text/javascript" src="js/frontend/modernizr.custom.min.js"></script>
     <script type="text/javascript" src="js/frontend/selectivizr.js"></script>
     <script type="text/javascript" src="js/frontend/matchMedia.js"></script>
@@ -116,22 +115,19 @@
     <script type="text/javascript" src="js/frontend/youama/ajaxlogin.js"></script>
     <script type="text/javascript" src="js/frontend/tm-stick-up.js"></script>
     <script type="text/javascript" src="js/frontend/owlcarousel/owl.carousel.min.js"></script>
-
     <script type="text/javascript" src="js/frontend/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/frontend/front.js"></script>
-
     <script type="text/javascript" src="js/frontend/jquery.easydropdown.min.js"></script>
     <script type="text/javascript" src="js/frontend/jquery.animateNumber.js"></script>
-    <link href="http://livedemo00.template-help.com/magento_57745/blog/rss/index/store_id/1/" title="Blog" rel="alternate" type="application/rss+xml"/>
 
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Ubuntu:300,300italic,400,400italic,500,500italic,700,700italic&amp;subset=latin,cyrillic"/>
     <!--[if  (lte IE 8) & (!IEMobile)]>
-    <link rel="stylesheet" type="text/css" href="http://livedemo00.template-help.com/magento_57745/skin/frontend/rwd/default/css/styles-ie8.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="css/default/styles-ie8.css" media="all" />
     <![endif]-->
     <script type="text/javascript">
         //<![CDATA[
-        Mage.Cookies.path     = '/magento_57745';
-        Mage.Cookies.domain   = '.livedemo00.template-help.com';
+        Mage.Cookies.path     = '/';
+        Mage.Cookies.domain   = '.domain.com';
         //]]>
     </script>
     <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
@@ -142,21 +138,8 @@
     </script>
     <script type="text/javascript">//<![CDATA[
     var Translator = new Translate([]);
-    //]]></script><script type="text/javascript">
-    /* <![CDATA[ */
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-7078796-5']);
-    _gaq.push(['_trackPageview']);
+    //]]></script>
 
-    (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-
-    (function(b){(function(a){"__CF"in b&&"DJS"in b.__CF?b.__CF.DJS.push(a):"addEventListener"in b?b.addEventListener("load",a,!1):b.attachEvent("onload",a)})(function(){"FB"in b&&"Event"in FB&&"subscribe"in FB.Event&&(FB.Event.subscribe("edge.create",function(a){_gaq.push(["_trackSocial","facebook","like",a])}),FB.Event.subscribe("edge.remove",function(a){_gaq.push(["_trackSocial","facebook","unlike",a])}),FB.Event.subscribe("message.send",function(a){_gaq.push(["_trackSocial","facebook","send",a])}));"twttr"in b&&"events"in twttr&&"bind"in twttr.events&&twttr.events.bind("tweet",function(a){if(a){var b;if(a.target&&a.target.nodeName=="IFRAME")a:{if(a=a.target.src){a=a.split("#")[0].match(/[^?=&]+=([^&]*)?/g);b=0;for(var c;c=a[b];++b)if(c.indexOf("url")===0){b=unescape(c.split("=")[1]);break a}}b=void 0}_gaq.push(["_trackSocial","twitter","tweet",b])}})})})(window);
-    /* ]]> */
-</script>
 </head>
 <body class="ps-static  cms-index-index cms-home">
 <div class="wrapper ps-static en-lang-class">
@@ -178,8 +161,8 @@
             <div class="container">
                 <div class="page-header-container">
                     <div class="f-left">
-                        <a class="logo" href="http://livedemo00.template-help.com/magento_57745/">
-                            <img src="http://livedemo00.template-help.com/magento_57745/skin/frontend/tm_themes/theme342k/images/logo.png" alt="Magento Commerce"/>
+                        <a class="logo" href="/">
+                            <img src="images/logo.png" alt="Magento Commerce"/>
                         </a>
                         <div class="header_phone">+1 800 603 6035</div> </div>
                     <div class="f-right">
@@ -192,7 +175,7 @@
                         </div>
                         <div class="cart_wrapper">
                             <div class="header-minicart desktop">
-                                <a href="http://livedemo00.template-help.com/magento_57745/checkout/cart/" data-target-element="#header-cart" class="skip-link skip-cart  no-count">
+                                <a href="/cart.html" data-target-element="#header-cart" class="skip-link skip-cart  no-count">
                                     <span class="icon"></span>
                                     <span class="label">Cart</span>
                                     <span class="count">0</span>
@@ -691,13 +674,13 @@
                                 <ul>
                                     <li class="first"><a href="http://livedemo00.template-help.com/magento_57745/customer/account/" title="My Account" class="my-account-link">My Account</a></li>
                                     <li><a href="http://livedemo00.template-help.com/magento_57745/customer/account/create/" title="Register" class="register-link">Register</a></li>
-                                    <li class=" last"><a href="http://livedemo00.template-help.com/magento_57745/customer/account/login/" title="Log In" class="log-in-link">Log In</a></li>
+                                    <li class=" last"><a href="login.html" title="Log In" class="log-in-link">Log In</a></li>
                                 </ul>
                             </div>
                         </div>
 
                         <div class="header-minicart mobile">
-                            <a href="http://livedemo00.template-help.com/magento_57745/checkout/cart/" data-target-element="#header-cart-mobile" class="skip-link skip-cart  no-count">
+                            <a href="cart.html" data-target-element="#header-cart-mobile" class="skip-link skip-cart  no-count">
                                 <span class="icon"></span>
                                 <span class="label">Cart</span>
                                 <span class="count">0</span>
@@ -720,7 +703,7 @@
         <div class="index_slider_wrapper">
             <div class="container">
                 <div class="header_slider">
-                    <script type="text/javascript" src="http://livedemo00.template-help.com/magento_57745/skin/frontend/tm_themes/theme342k/js/camera.js"></script>
+                    <script type="text/javascript" src="js/frontend/camera.js"></script>
                     <script type="text/javascript">
                         /* index slider */
                         jQuery(function(){
@@ -739,35 +722,35 @@
                     </script>
                     <div class="fluid_container">
                         <div class="camera_wrap camera_orange_skin" id="camera_wrap">
-                            <div data-src="http://livedemo00.template-help.com/magento_57745/skin/frontend/tm_themes/theme342k/images/media/slider_pic1.png" data-link="home-appliances.html">
+                            <div data-src="images/media/slider_pic1.png" data-link="home-appliances.html">
                                 <div class="camera_caption fadeIn">
                                     <div class="right_slider_side sl_1">
                                         <div class="slider_holder">
                                             <h2>Bissell 1161</h2>
                                             <p>This product will spark your imagination. Even more, it will turn your life into adventure. </p>
-                                            <a href="http://livedemo00.template-help.com/magento_57745/home-appliances.html/" class="shop_now"><span>Shop Now</span></a>
+                                            <a href="/" class="shop_now"><span>Shop Now</span></a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div data-src="http://livedemo00.template-help.com/magento_57745/skin/frontend/tm_themes/theme342k/images/media/slider_pic2.png" data-link="photo.html">
+                            <div data-src="images/media/slider_pic2.png" data-link="photo.html">
                                 <div class="camera_caption fadeIn">
                                     <div class="right_slider_side sl_2">
                                         <div class="slider_holder">
                                             <h2>Canon EOS 70D</h2>
                                             <p>This product will spark your imagination. Even more, it will turn your life into adventure. </p>
-                                            <a href="http://livedemo00.template-help.com/magento_57745/photo.html/" class="shop_now"><span>Shop Now</span></a>
+                                            <a href="/" class="shop_now"><span>Shop Now</span></a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div data-src="http://livedemo00.template-help.com/magento_57745/skin/frontend/tm_themes/theme342k/images/media/slider_pic3.png" data-link="tv-video.html">
+                            <div data-src="images/media/slider_pic3.png" data-link="tv-video.html">
                                 <div class="camera_caption fadeIn">
                                     <div class="right_slider_side sl_3">
                                         <div class="slider_holder">
                                             <h2>Ninja Blender</h2>
                                             <p>This product will spark your imagination. Even more, it will turn your life into adventure. </p>
-                                            <a href="http://livedemo00.template-help.com/magento_57745/tv-video.html/" class="shop_now"><span>Shop Now</span></a>
+                                            <a href="/" class="shop_now"><span>Shop Now</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -1130,9 +1113,9 @@ Register </span>
                                 jQuery(window).load(function(){
                                     jQuery().youamaAjaxLogin({
                                         redirection : '0',
-                                        profileUrl : 'http://livedemo00.template-help.com/magento_57745/customer/account/',
+                                        profileUrl : '/customer/account/',
                                         autoShowUp : 'no',
-                                        controllerUrl : 'http://livedemo00.template-help.com/magento_57745/ajaxlogin/ajax/index/'
+                                        controllerUrl : '/ajaxlogin/ajax/index/'
                                     });
                                 });
                                 //]]>
@@ -1239,7 +1222,120 @@ Register </span>
                     zoom: 13,
                     center: new google.maps.LatLng(40.5899796,-73.8820439),
                     mapTypeId: google.maps.MapTypeId.ROADMAP,
-                    styles: [{"featureType":"water","elementType":"geometry","stylers":[{"color":"#e9e9e9"},{"lightness":17}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":20}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ffffff"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#ffffff"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":16}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":21}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#dedede"},{"lightness":21}]},{"elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#ffffff"},{"lightness":16}]},{"elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#333333"},{"lightness":40}]},{"elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#f2f2f2"},{"lightness":19}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#fefefe"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#fefefe"},{"lightness":17},{"weight":1.2}]}],
+                    styles: [
+                        {
+                            "featureType":"water",
+                            "elementType":"geometry",
+                            "stylers":[
+                                {"color":"#e9e9e9"},
+                                {"lightness":17}
+                            ]
+                        },
+                        {
+                            "featureType":"landscape",
+                            "elementType":"geometry",
+                            "stylers":[
+                                {"color":"#f5f5f5"},
+                                {"lightness":20}
+                            ]
+                        },
+                        {
+                            "featureType":"road.highway",
+                            "elementType":"geometry.fill",
+                            "stylers":[
+                                {"color":"#ffffff"},
+                                {"lightness":17}
+                            ]
+                        },
+                        {
+                            "featureType":"road.highway",
+                            "elementType":"geometry.stroke",
+                            "stylers":[
+                                {"color":"#ffffff"},
+                                {"lightness":29},
+                                {"weight":0.2}
+                            ]
+                        },
+                        {
+                            "featureType":"road.arterial",
+                            "elementType":"geometry",
+                            "stylers":[
+                                {"color":"#ffffff"},
+                                {"lightness":18}
+                            ]
+                        },
+                        {
+                            "featureType":"road.local",
+                            "elementType":"geometry",
+                            "stylers":[
+                                {"color":"#ffffff"},
+                                {"lightness":16}
+                            ]
+                        },
+                        {
+                            "featureType":"poi",
+                            "elementType":"geometry",
+                            "stylers":[
+                                {"color":"#f5f5f5"},
+                                {"lightness":21}
+                            ]
+                        },
+                        {
+                            "featureType":"poi.park",
+                            "elementType":"geometry",
+                            "stylers":[
+                                {"color":"#dedede"},
+                                {"lightness":21}
+                            ]
+                        },
+                        {
+                            "elementType":"labels.text.stroke",
+                            "stylers":[
+                                {"visibility":"on"},
+                                {"color":"#ffffff"},
+                                {"lightness":16}
+                            ]
+                        },
+                        {
+                            "elementType":"labels.text.fill",
+                            "stylers":[
+                                {"saturation":36},
+                                {"color":"#333333"},
+                                {"lightness":40}
+                            ]
+                        },
+                        {
+                            "elementType":"labels.icon",
+                            "stylers":[
+                                {"visibility":"off"}
+                            ]
+                        },
+                        {
+                            "featureType":"transit",
+                            "elementType":"geometry",
+                            "stylers":[
+                                {"color":"#f2f2f2"},
+                                {"lightness":19}
+                            ]
+                        },
+                        {
+                            "featureType":"administrative",
+                            "elementType":"geometry.fill",
+                            "stylers":[
+                                {"color":"#fefefe"},
+                                {"lightness":20}
+                            ]
+                        },
+                        {
+                            "featureType":"administrative",
+                            "elementType":"geometry.stroke",
+                            "stylers":[
+                                {"color":"#fefefe"},
+                                {"lightness":17},
+                                {"weight":1.2}
+                            ]
+                        }
+                    ],
                     disableDefaultUI: false,
                     scrollwheel: false,
                     draggable: false			}
@@ -1336,52 +1432,52 @@ Register </span>
 </div>
 <div id="fb-root"></div>
 <script>
-    (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3&appId=734741803247761";
-        fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
-
-    if(jQuery) {
-        (function (jQuery) {
-            var o = jQuery('.fb-page');
-
-            jQuery(window).load(function () {
-                o.css({'display': 'block'})
-                        .find('span').css({
-                            'width': '100%',
-                            'display': 'block',
-                            'text-align': 'inherit'
-                        })
-                        .find('iframe').css({
-                    'display': 'inline-block',
-                    'position': 'static'
-                });
-            });
-
-            jQuery(window).on('load resize', function () {
-                if (o.parent().width() < o.find('iframe').width()) {
-                    o.find('iframe').css({
-                                'transform': 'scale(' + (o.width() / o.find('iframe').width()) + ')',
-                                'transform-origin': '0% 0%'
-                            })
-                            .parent().css({
-                        'height': (o.find('iframe').height() * (o.width() / o.find('iframe').width())) + 'px'
-                    });
-                } else {
-                    o
-                            .find('span').css({
-                                'height': 'auto'
-                            })
-                            .find('iframe').css({
-                        'transform': 'none'
-                    });
-                }
-            });
-        })(jQuery);
-    }
+//    (function(d, s, id) {
+//        var js, fjs = d.getElementsByTagName(s)[0];
+//        if (d.getElementById(id)) return;
+//        js = d.createElement(s); js.id = id;
+//        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3&appId=734741803247761";
+//        fjs.parentNode.insertBefore(js, fjs);
+//    }(document, 'script', 'facebook-jssdk'));
+//
+//    if(jQuery) {
+//        (function (jQuery) {
+//            var o = jQuery('.fb-page');
+//
+//            jQuery(window).load(function () {
+//                o.css({'display': 'block'})
+//                        .find('span').css({
+//                            'width': '100%',
+//                            'display': 'block',
+//                            'text-align': 'inherit'
+//                        })
+//                        .find('iframe').css({
+//                    'display': 'inline-block',
+//                    'position': 'static'
+//                });
+//            });
+//
+//            jQuery(window).on('load resize', function () {
+//                if (o.parent().width() < o.find('iframe').width()) {
+//                    o.find('iframe').css({
+//                                'transform': 'scale(' + (o.width() / o.find('iframe').width()) + ')',
+//                                'transform-origin': '0% 0%'
+//                            })
+//                            .parent().css({
+//                        'height': (o.find('iframe').height() * (o.width() / o.find('iframe').width())) + 'px'
+//                    });
+//                } else {
+//                    o
+//                            .find('span').css({
+//                                'height': 'auto'
+//                            })
+//                            .find('iframe').css({
+//                        'transform': 'none'
+//                    });
+//                }
+//            });
+//        })(jQuery);
+//    }
 
 </script>
 <div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="newsletterpopup" aria-hidden="true" id="newsletterpopup">
@@ -1445,10 +1541,24 @@ Register </span>
 </script>
 <script type="text/javascript">/* CloudFlare analytics upgrade */
 </script>
-<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"72d7dcce33","applicationID":"1388850","transactionName":"ZV1TZ0FTVkFVWkwKXlwXcFBHW1dcG1pVEB5bVlVWSx1RXFBcQA==","queueTime":0,"applicationTime":1745,"atts":"SRpQEQlJRU8=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-768.min.js"}</script><script type="text/javascript">
-    /* <![CDATA[ */
-    (function(){try{var s,a,i,j,r,c,l=document.getElementsByTagName("a"),t=document.createElement("textarea");for(i=0;l.length-i;i++){try{a=l[i].getAttribute("href");if(a&&a.indexOf("/cdn-cgi/l/email-protection") > -1  && (a.length > 28)){s='';j=27+ 1 + a.indexOf("/cdn-cgi/l/email-protection");if (a.length > j) {r=parseInt(a.substr(j,2),16);for(j+=2;a.length>j&&a.substr(j,1)!='X';j+=2){c=parseInt(a.substr(j,2),16)^r;s+=String.fromCharCode(c);}j+=1;s+=a.substr(j,a.length-j);}t.innerHTML=s.replace(/</g,"&lt;").replace(/>/g,"&gt;");l[i].setAttribute("href","mailto:"+t.value);}}catch(e){}}}catch(e){}})();
-    /* ]]> */
+<script type="text/javascript">
+//    window.NREUM||(NREUM={});
+//    NREUM.info={
+//        "beacon":"bam.nr-data.net",
+//        "licenseKey":"72d7dcce33",
+//        "applicationID":"1388850",
+//        "transactionName":"ZV1TZ0FTVkFVWkwKXlwXcFBHW1dcG1pVEB5bVlVWSx1RXFBcQA==",
+//        "queueTime":0,
+//        "applicationTime":1745,
+//        "atts":"SRpQEQlJRU8=",
+//        "errorBeacon":"bam.nr-data.net",
+//        "agent":"js-agent.newrelic.com\/nr-768.min.js"
+//    }
+</script>
+<script type="text/javascript">
+//    /* <![CDATA[ */
+//    (function(){try{var s,a,i,j,r,c,l=document.getElementsByTagName("a"),t=document.createElement("textarea");for(i=0;l.length-i;i++){try{a=l[i].getAttribute("href");if(a&&a.indexOf("/cdn-cgi/l/email-protection") > -1  && (a.length > 28)){s='';j=27+ 1 + a.indexOf("/cdn-cgi/l/email-protection");if (a.length > j) {r=parseInt(a.substr(j,2),16);for(j+=2;a.length>j&&a.substr(j,1)!='X';j+=2){c=parseInt(a.substr(j,2),16)^r;s+=String.fromCharCode(c);}j+=1;s+=a.substr(j,a.length-j);}t.innerHTML=s.replace(/</g,"&lt;").replace(/>/g,"&gt;");l[i].setAttribute("href","mailto:"+t.value);}}catch(e){}}}catch(e){}})();
+//    /* ]]> */
 </script>
 </body>
 </html>
